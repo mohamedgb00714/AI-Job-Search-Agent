@@ -1,0 +1,53 @@
+{
+  "title": "AI Job Search Agent",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "resume": {
+      "title": "Resume",
+      "type": "string",
+      "description": "The resume text to analyze for job matching",
+      "editor": "textarea",
+      "prefill": "Enter your resume text here..."
+    },
+    "location": {
+      "title": "Location",
+      "type": "string",
+      "description": "Preferred job location (city, state, or 'Remote')",
+      "editor": "textfield",
+      "default": "Remote"
+    },
+    "jobType": {
+      "title": "Job Type",
+      "type": "string",
+      "description": "Type of employment desired",
+      "enum": [
+        "full-time",
+        "part-time",
+        "contract",
+        "internship",
+        "remote"
+      ],
+      "default": "full-time"
+    },
+    "keywords": {
+      "title": "Keywords",
+      "type": "string",
+      "description": "Additional search keywords (comma-separated)",
+      "editor": "textfield",
+      "example": "python, machine learning, data science"
+    },
+    "modelName": {
+      "title": "AI Model",
+      "type": "string",
+      "description": "The OpenAI model to use for analysis",
+      "enum": [
+        "gpt-4o-mini",
+        "gpt-4-turbo",
+        "gpt-3.5-turbo"
+      ],
+      "default": "gpt-4o-mini"
+    }
+  },
+  "required": ["resume"]
+}

@@ -1,0 +1,16 @@
+{
+    "query": "please find me a job related to my resume",
+    "resume": "I am a software engineer with 5 years of experience in Python and web development. Skills include: Python, JavaScript, React, Node.js, AWS, Docker, and CI/CD. Previously worked at Tech Corp as Senior Developer leading a team of 5 engineers...",
+    "preferences": {
+        "location": "new york",
+        "job_types": ["full-time"],
+        "remote_preference": "remote",
+        "industries": ["technology", "software"],
+        "experience_level": "mid-level",
+        "salary_range": {
+            "min": 100000,
+            "max": 150000
+        }
+    },
+    "modelName": "gpt-4o-mini"
+}

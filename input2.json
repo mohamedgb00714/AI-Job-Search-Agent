@@ -1,0 +1,16 @@
+{
+    "query": "find me a data science position in San Francisco",
+    "resume": "I am a data scientist with 3 years of experience specializing in machine learning and AI. Proficient in Python, TensorFlow, PyTorch, and scikit-learn. Experience with big data technologies like Spark and Hadoop. Previously worked at AI Solutions Inc as ML Engineer developing predictive models...",
+    "preferences": {
+        "location": "san francisco",
+        "job_types": ["full-time"],
+        "remote_preference": "hybrid",
+        "industries": ["technology", "artificial intelligence"],
+        "experience_level": "mid-level",
+        "salary_range": {
+            "min": 120000,
+            "max": 180000
+        }
+    },
+    "modelName": "gpt-4o-mini"
+} 
