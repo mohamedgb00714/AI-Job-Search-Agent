@@ -118,4 +118,4 @@ The actor can be customized by:
 
 ## 📝 License
 
-Apache 2.0
+MIT License
